@@ -26,7 +26,7 @@ def adivinar_par_o_impar():
             print("Felicitaciones, adivinaste correctamente!!!")
             correctos += 1
         else:
-            print("Lo siento, :(, no adivinaste la paridad correcta del numero)")
+            print("Lo siento, :(, no adivinaste la paridad correcta del numero")
         print("El numero era:", numeroviejo)
         
         print("")

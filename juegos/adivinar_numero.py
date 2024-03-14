@@ -3,7 +3,7 @@ def adivinar_numero():
     computador = random.randint(1,10)
 
     while True:
-        jugador=(input("Adivina el numero del computador (para salir del juego: quit)\n>>> "))
+        jugador=(input("Adivina el numero del computador (entre 1 - 10) (para salir del juego: quit)\n>>> "))
 
         if jugador == "quit":
             break
